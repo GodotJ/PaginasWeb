@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="css/FinalRegistro.css">
+	<meta charset="utf-8">
+	<title>Campamento de verano - Inscripción</title>
+</head>
+<body>
+	<header>
+		<h1>Campamento de verano</h1>
+		<p>Disfruta de la naturaleza y diviértete con tus amigos</p>
+	</header>
+	<nav>
+		<a href="FinalInicio.html">Inicio</a>
+		<a href="FinalHistoria.html">Historia</a>
+		<a href="FinalTuristicos.html">Lugares Turisticos</a>
+		<a href="FinalComida.html">Comida Tipica</a>
+		<a href="FinalContacto.html ">Contacto</a>
+		<a href="FinalRegistro.html">Registro</a>
+		<a href="">Extras</a>
+		<a href="FinalAdmin.html">Admin</a> 
+	</nav>
+	<section>
+		<h2>Inscripción</h2>
+		<p>Para inscribirte en nuestro tour, por favor completa el siguiente formulario:</p>
+    <div class="caja">
+
+      <table cellspacing="10" cellpadding="2">
+        <form class="formulario" onsubmit="return validacion()" action="../php/FinalRegistro.php" method="post" id="formulario">
+          <tr>
+            <td>Usuario:</td>
+            <td>Contraseña:</td>
+          </tr>
+          <tr>
+            <td><input type="text" id="nombres" name="nombres" onkeyup="mayusculas(this)" onkeypress="return soloLetras(event)"></td>
+            <td><input type="text" id="apellidos" name="apellidos" onkeyup="mayusculas(this)" onkeypress="return soloLetras(event)"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" name="registro" value="Enviar" id="boton"></td>
+          </tr>
+        </form>
+      </table>
+    </div>
+    <script type="text/javascript" src="js/FinalRegistro.js"></script>
+      </section>

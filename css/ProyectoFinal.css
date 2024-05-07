@@ -1,0 +1,24 @@
+html,body{
+  height: 100%;
+}
+body{
+ background-image: url("../imagenes/valencia.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(8, 4, 6, 0.4);
+}
+
+input, select{
+  width: 95%;
+}
+
+#boton{
+  width: 100%;
+  color: white;
+  background-color: transparent;
+}

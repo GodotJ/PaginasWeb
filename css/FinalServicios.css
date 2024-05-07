@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  background-size: cover;
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("../imagenes/valencia.jpg");
+}
+header {
+  background-color: #c76300;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+nav {
+  background-color: #6f3500;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #ffce5c;
+}
+section {
+  margin: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5%;
+}
+h2 {
+  font-size: 24px;
+}
+p {
+  line-height: 1.5;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+  border-radius: 5px;
+}
+li img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+li h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+#act{
+  margin-left: 35%;
+  height:350px;
+  border-radius: 15%;
+}
+#act2{
+  margin-left: 30%;
+  height:350px;
+  border-radius: 15%;
+}

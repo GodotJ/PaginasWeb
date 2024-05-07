@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/ProyectoFinal.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <table id="tabla">
+      <form class="" action="index.html" method="post" id="formulario">
+        <tr>
+          <td>Nombres:</td>
+          <td>Apellidos:</td>
+        </tr>
+        <tr>
+          <td><input type="text" name="nombre" value=""></td>
+          <td><input type="text" name="apellido" value=""></td>
+        </tr>
+        <tr>
+          <td>Edad:</td>
+          <td>Sexo:</td>
+        </tr>
+        <tr>
+          <td><input type="text" name="edad" value=""></td>
+          <td><select class="" name="sexo">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="they">They</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td>Ciudad:</td>
+          <td>Domicilio:</td>
+        </tr>
+        <tr>
+          <td><select class="" name="ciudad"id="ciudad" onchange="habilitar()">
+            <option value="tijuana">Tijuana</option>
+            <option value="mexicali">Mexicali</option>
+            <option value="rosarito">Rosarito</option>
+            <option value="ensenada">Ensenada</option>
+            <option value="tecate">Tecate</option>
+            <option value="sanFelipe">San Felipe</option>
+          </select></td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Alergias:</td>
+          <td>Celular:</td>
+        </tr>
+        <tr>
+          <td><select class="" name="alergias" id="alergias" onchange="aparecerAlergia()">
+            <option value="no">No</option>
+            <option value="si">Si</option>
+          </select></td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Transporte</td>
+          <td>Ingrese las alergias</td>
+        </tr>
+        <tr>
+          <td><select class="" name="transporte" id="transporte" onchange="habilitardic">
+            <option value="no">No</option>
+            <option value="si">Si</option>
+          </select></td>
+          <td rowspan="3"><textarea name="Alergias" rows="3" cols="22"></textarea></td>
+        </tr>
+        <tr>
+          <td>Camisa</td>
+        </tr>
+        <tr>
+          <td><select class="" name="" id="camisa" onChange="aparecer()">
+            <option value="si">Si</option>
+            <option value="no">No</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td>Direccion</td>
+        </tr>
+        <tr>
+          <td><input type="text" name="" value="" id="direccion"> </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><input type="button" value="Enviar" id="boton"></td>
+        </tr>
+      </form>
+    </table>
+    <script type="text/javascript" src="js/ProyectoFinal.js"></script>
+  </body>
+</html>

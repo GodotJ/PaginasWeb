@@ -1,0 +1,109 @@
+body {
+  background-image: url("../imagenes/valencia.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+header {
+  background-color: #c76300;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+nav {
+  background-color: #6f3500;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #ffce5c;
+}
+section {
+  margin: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5%;
+}
+table
+{
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(18, 17, 17, 0.41);
+  border-radius: 10px;
+}
+
+select
+{
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+}
+
+#boton
+{
+  background-color: rgb(142,171,255);
+  width: 100%;
+}
+
+input
+{
+  border-radius: 5px;
+  height: 25px;
+}
+
+textarea
+{
+  border-radius: 5px;
+  width: 168px; /* Puedes ajustar el ancho según tus necesidades */
+  height: 100px; /* Puedes ajustar la altura según tus necesidades */
+ resize: none; /*esta funcion evita que el usuario pueda expandir el css */
+}
+
+.prueba
+{
+  display: none;
+}
+
+h1
+{
+  text-align: center;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+}
+
+h3
+{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+td{
+  color: white;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
