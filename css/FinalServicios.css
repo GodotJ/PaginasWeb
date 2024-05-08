@@ -85,3 +85,12 @@ footer {
   height:350px;
   border-radius: 15%;
 }
+
+img{
+  width: 300px;
+    height: 300px; 
+}
+
+.contenedor {
+  text-align: center;
+}
