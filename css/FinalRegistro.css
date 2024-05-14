@@ -33,7 +33,8 @@ nav a:hover {
 section {
   margin: 40px;
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 5%;
+  border-radius: 5px;
+  height: 650px;
 }
 table
 {
@@ -41,7 +42,7 @@ table
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(18, 17, 17, 0.41);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 select
@@ -68,7 +69,7 @@ textarea
   border-radius: 5px;
   width: 168px; /* Puedes ajustar el ancho según tus necesidades */
   height: 100px; /* Puedes ajustar la altura según tus necesidades */
- resize: none; /*esta funcion evita que el usuario pueda expandir el css */
+  resize: none; /*esta funcion evita que el usuario pueda expandir el css */
 }
 
 .prueba
@@ -97,13 +98,3 @@ h3
 td{
   color: white;
 }
-
-
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-
