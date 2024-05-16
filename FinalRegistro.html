@@ -7,8 +7,8 @@
 </head>
 <body>
 	<header>
-		<h1>Tour</h1>
-		<p>Disfruta el paisaje y diviértete con tus amigos</p>
+		<h1>Valencia - España</h1>
+		<p>Disfruta de la ciudad y diviértete con tus amigos</p>
 	</header>
 	<nav>
 		<a href="FinalInicio.html">Inicio</a>
@@ -21,13 +21,12 @@
 		<a href="FinalAdmin.html">Admin</a> 
 	</nav>
 	<section>
-		<h2>Inscripción</h2>
 		<p>Para inscribirte en nuestro tour, por favor completa el siguiente formulario:</p>
     <div class="caja">
 
       <h3>Inscripcion</h3>
       <table cellspacing="10" cellpadding="2">
-        <form class="formulario" onsubmit="return validacion()" action="php/practica30.php" method="post" id="formulario">
+        <form class="formulario" onsubmit="return validacion()" action="php/FinalRegistro.php" method="post" id="formulario">
           <tr>
             <td>Nombres:</td>
             <td>Apellidos:</td>
@@ -41,7 +40,7 @@
             <td>Sexo:</td>
           </tr>
           <tr>
-            <td><input type="text" id="edad" name="edad" maxlength="2" onkeypress="return valideKey(event);"></td>
+            <td><input type="number" id="edad" name="edad" maxlength="2" max="60" min="18"></td>
             <td><select class="sexo" id="sexo" name="sexo">
               <option value="1" disabled selected value>Elige una opcion:</option>
               <option value="Masculino">Masculino</option>
@@ -99,7 +98,7 @@
             </select></td>
           </tr>
           <tr>
-            <td colspan="2"><input type="submit" name="enviar" value="Enviar" id="boton"></td>
+            <td colspan="2"><input type="submit" name="registro" value="Enviar" id="boton"></td>
           </tr>
         </form>
       </table>

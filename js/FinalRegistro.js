@@ -48,68 +48,78 @@ function valideKey(evt){
 			}
 		}
 
-function validacion(){
+    function validacion(){
 
-  let nombre = document.getElementById('nombres').value;
-  let apellido = document.getElementById('apellidos').value;
-  let edad = document.getElementById('edad').value;
-  let sexo = document.getElementById('sexo').selectedIndex;
-  let ciudad = document.getElementById('ciudad').selectedIndex;
-  let celular = document.getElementById('celular').value;
-  let transporte = document.getElementById('transporte').selectedIndex;
-  let camisa = document.getElementById('camisa').selectedIndex;
-  let talla = document.getElementById('talla').selectedIndex;
-
-  if(nombre.length == 0){
-				alert('Introduzca un nombre, por favor.');
-				return false;
-			}
-
-  if(apellido.length == 0){
-      alert('Introduzca un apellido, por favor.');
-      return false;
-    }
-
-  if(edad.length == 0){
-      alert('Introduzca la edad, por favor.');
-      return false;
-    }
-
-  if(sexo == "" || sexo == 0){
-  		alert('Debe elegir una opcion en la lista de sexos, por favor.');
-  		return false;
-  }
-
-  if(ciudad == "" || ciudad == 0){
-  		alert('Debe elegir una ciudad, por favor.');
-  		return false;
-  }else if (ciudad == 1) {
-    if(transporte == "" || transporte == 0){
-      	alert('Debe elegir una opcion en trasnporte, por favor.');
-      	return false;
-      }
-  }
-
-  if(celular.length == 0){
-      alert('Introduzca un numero de telefono, por favor.');
-      return false;
-    }else if (celular.length < 10) {
-      alert('Introduzca un numero completo, por favor.')
-      return false;
-    }
-
-  if(camisa == "" || camisa == 0){
-      alert('Debe elegir una opcion en Semi Dios, por favor.');
-      return false;
-    }else if (camisa == 1) {
-      if(talla == "" || talla == 0){
-        	alert('Debe elegir un Padre, por favor.');
-        	return false;
+      let nombre = document.getElementById('nombres').value;
+      let apellido = document.getElementById('apellidos').value;
+      let edad = document.getElementById('edad').value;
+      let sexo = document.getElementById('sexo').selectedIndex;
+      let ciudad = document.getElementById('ciudad').selectedIndex;
+      let celular = document.getElementById('celular').value;
+      let transporte = document.getElementById('transporte').selectedIndex;
+      let camisa = document.getElementById('camisa').selectedIndex;
+      let talla = document.getElementById('talla').selectedIndex;
+    
+      if(nombre.length == 0){
+            alert('Introduzca un nombre, por favor.');
+            document.getElementById('nombres').focus();
+            return false;
+          }
+    
+      if(apellido.length == 0){
+          alert('Introduzca un apellido, por favor.');
+          document.getElementById('apellidos').focus();
+          return false;
         }
+    
+      if(edad.length == 0){
+          alert('Introduzca la edad, por favor.');
+          document.getElementById('edad').focus();
+          return false;
+        }
+    
+      if(sexo == "" || sexo == 0){
+          alert('Debe elegir una opcion en la lista de sexos, por favor.');
+          document.getElementById('sexo').focus();
+          return false;
+      }
+    
+      if(ciudad == "" || ciudad == 0){
+          alert('Debe elegir una ciudad, por favor.');
+          document.getElementById('ciudad').focus();
+          return false;
+      }else if (ciudad == 1) {
+        if(transporte == "" || transporte == 0){
+            alert('Debe elegir una opcion en trasnporte, por favor.');
+            document.getElementById('transporte').focus();
+            return false;
+          }
+      }
+    
+      if(celular.length == 0){
+          alert('Introduzca un numero de telefono, por favor.');
+          document.getElementById('celular').focus();
+          return false;
+        }else if (celular.length < 10) {
+          alert('Introduzca un numero completo, por favor.')
+          document.getElementById('celular').focus();
+          return false;
+        }
+    
+      if(camisa == "" || camisa == 0){
+          alert('Debe elegir una opcion en camisa, por favor.');
+          document.getElementById('camisa').focus();
+          return false;
+        }else if (camisa == 1) {
+          if(talla == "" || talla == 0){
+              alert('Debe elegir una talla, por favor.');
+              document.getElementById('talla').focus();
+              return false;
+            }
+        }
+    
+        return true;
     }
-
-    return true;
-}
 
 function soloLetras(evt){
   let letra = (evt.which) ? evt.which : evt.keyCode;
