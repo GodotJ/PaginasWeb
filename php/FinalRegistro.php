@@ -1,7 +1,6 @@
 <?php
 
-$conexion = mysqli_connect("localhost","root","","pfinal")
-or die("problemas con la coneccion");
+$conexion = mysqli_connect("localhost","root","","pfinal") or die("problemas con la coneccion");
 
 if(isset($_POST['registro'])){ 
    $nombre = strtoupper($_POST['nombres']);

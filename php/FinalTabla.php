@@ -1,5 +1,5 @@
 <?php
-   $conexion= mysqli_connect("localhost", "root", "","proyecto");
+   $conexion= mysqli_connect("localhost", "root", "","pfinal");
    $sql="SELECT * from registros";
 ?>
 
@@ -12,11 +12,11 @@
 </head>
 <body>
 	<header>
-		<h1>Campamento de verano</h1>
-		<p>Disfruta de la naturaleza y diviértete con tus amigos</p>
+  <h1>Valencia - España</h1>
+	<p>Disfruta de la ciudad y diviértete con tus amigos</p>
 	</header>
 	<nav>
-  <a href="FinalInicio.html">Inicio</a>
+  <a href="">Inicio</a>
 		<a href="FinalHistoria.html">Historia</a>
 		<a href="FinalTuristicos.html">Lugares Turisticos</a>
 		<a href="Final">Comida Tipica</a>
@@ -26,7 +26,7 @@
 		<a href="php/FinalTabla.php">Admin</a>
 	</nav>
 	<section>
-		<h2>Registrados al campamento</h2>
+		<h2>Registrados al Tour</h2>
   </section>
   <table>
     <tr>

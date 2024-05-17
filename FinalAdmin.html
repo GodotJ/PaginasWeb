@@ -11,30 +11,30 @@
 		<p>Disfruta de la ciudad y diviértete con tus amigos</p>
 	</header>
 	<nav>
-		<a href="FinalInicio.html">Inicio</a>
-		<a href="FinalHistoria.html">Historia</a>
-		<a href="FinalTuristicos.html">Lugares Turisticos</a>
-		<a href="FinalComida.html">Comida Tipica</a>
-		<a href="FinalContacto.html ">Contacto</a>
-		<a href="FinalRegistro.html">Registro</a>
+		<a href="index.html">Inicio</a>
+		<a href="uHistoria.html">Historia</a>
+		<a href="uTuristicos.html">Lugares Turisticos</a>
+		<a href="uComida.html">Comida Tipica</a>
+		<a href="uContacto.html">Contacto</a>
+		<a href="uRegistro.html">Registro</a>
 		<a href="">Extras</a>
-		<a href="FinalAdmin.html">Admin</a> 
+		<a href="#">Admin</a> 
 	</nav>
 	<section>
     <div class="caja">
 
       <table cellspacing="10" cellpadding="2">
-        <form class="formulario" onsubmit="return validacion()" action="../php/FinalRegistro.php" method="post" id="formulario">
+        <form class="formulario" onsubmit="return validacion()" action="php/validacion.php" method="post" id="formulario">
           <tr>
             <td>Usuario:</td>
             <td>Contraseña:</td>
           </tr>
           <tr>
-            <td><input type="text" id="nombres" name="nombres" onkeyup="mayusculas(this)" onkeypress="return soloLetras(event)"></td>
-            <td><input type="text" id="apellidos" name="apellidos" onkeyup="mayusculas(this)" onkeypress="return soloLetras(event)"></td>
+            <td><input type="text" name="usuario" id="usuario" value="" placeholder="USERNAME" onpaste="return false;" onDrop="return false;" autocomplete="off"></td>
+            <td><input type="password" name="password" id="password" value="" placeholder="PASSWORD" onpaste="return false;" onDrop="return false;" autocomplete="off"></td>
           </tr>
           <tr>
-            <td colspan="2"><input type="submit" name="registro" value="Iniciar Sesion" id="boton"></td>
+            <td colspan="2"><input type="submit" name="sesion" value="Iniciar Sesion" id="boton"></td>
           </tr>
         </form>
       </table>
