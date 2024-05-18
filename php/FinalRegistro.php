@@ -14,7 +14,7 @@ if(isset($_POST['registro'])){
    $comentarios = $_POST['comentarios'];
    $sexo  = strtoupper($_POST['sexo']);
 
-      $sql = "INSERT INTO registros VALUES('','$nombre', '$apellido', '$edad','$ciudad','$celular','$transporte','$camisa','$talla','$comentarios','$sexo')";
+      $sql = "INSERT INTO registros VALUES('','$nombre', '$apellido', '$edad','$sexo','$ciudad','$celular','$transporte','$camisa','$talla','$comentarios')";
       
       $ejecutar = mysqli_query ($conexion,$sql);
 }
