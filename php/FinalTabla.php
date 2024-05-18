@@ -16,15 +16,15 @@
 	<p>Disfruta de la ciudad y diviértete con tus amigos</p>
 	</header>
 	<nav>
-    <a href="aInicio.html">Inicio</a>
-		<a href="aHistoria.html">Historia</a>
-		<a href="aTuristicos.html">Lugares Turisticos</a>
-		<a href="aComida.html">Comida Tipica</a>
-		<a href="aContacto.html">Contacto</a>
-		<a href="aRegistroshtml.html">Registro</a>
+    <a href="../aInicio.html">Inicio</a>
+		<a href="../aHistoria.html">Historia</a>
+		<a href="../aTuristicos.html">Lugares Turisticos</a>
+		<a href="../aComida.html">Comida Tipica</a>
+		<a href="../aContacto.html">Contacto</a>
+		<a href="../aRegistro.html">Registro</a>
 		<a href="">Extras</a>
     <a href="#">Usuarios Registrados</a>
-    <a href="">Cerrar Sesion</a>
+    <a href="destruir.php">Cerrar Sesion</a>
 	</nav>
 	<section>
 		<h2>Registrados al Tour</h2>
