@@ -11,12 +11,12 @@
 		<p>Disfruta de la ciudad y diviértete con tus amigos</p>
 	</header>
 	<nav>
-		<a href="aInicio.html">Inicio</a>
-		<a href="aHistoria.html">Historia</a>
-		<a href="aTuristicos.html">LugaresTuristicos</a>
-		<a href="aComida.html">Comida Tipica</a>
+		<a href="aInicio.php">Inicio</a>
+		<a href="aHistoria.php">Historia</a>
+		<a href="aTuristicos.php">LugaresTuristicos</a>
+		<a href="aComida.php">Comida Tipica</a>
 		<a href="#">Contacto</a>
-		<a href="aRegistro.html">Registro</a>
+		<a href="aRegistro.php">Registro</a>
 		<a href="">Extras</a>
 		<a href="php/FinalTabla.php">Usuarios Registrados</a>
 		<a href="php/destruir.php">Cerrar Sesion</a>
@@ -29,6 +29,6 @@
   <h3>  Teléfonos:</h3>
     <p>(664) 129 4242 - (664) 318 8922 </p>
   <h3>  Dirección:</h3>
-    <p>Km. 105 Carretera Libre Tecate - Mexicali</p></td>
+    <p>Km. 105 Carretera Libre Tecate - Tijuana</p></td>
     <td><img src="imagenes/grut.png" id="grut"></td>
 </table>

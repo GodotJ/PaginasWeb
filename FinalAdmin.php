@@ -24,7 +24,7 @@
     <div class="caja">
 
       <table cellspacing="10" cellpadding="2">
-        <form class="formulario" onsubmit="return validacion()" action="php/validacion.php" method="post" id="formulario">
+        <form class="formulario" onsubmit="return validacion()" action="" method="post" id="formulario">
           <tr>
             <td>Usuario:</td>
             <td>Contraseña:</td>
@@ -39,5 +39,30 @@
         </form>
       </table>
     </div>
-    <script type="text/javascript" src="js/FinalRegistro.js"></script>
+    <script type="text/javascript" src="js/validacionSesion.js"></script>
       </section>
+
+      <?php
+
+$conexion = mysqli_connect("localhost","root","","pfinal") or die("problemas con la coneccion");
+
+if($_POST){
+
+  $registros = mysqli_query($conexion,"select usuario,password from usuarios where usuario = ('$_REQUEST[usuario]') and password =('$_REQUEST[password]')") or die ("Problemas en el select". mysqli_error($conexion));
+
+  if ($reg = mysqli_fetch_array($registros)) {
+
+    session_start();
+      $_SESSION['admin'] = $_REQUEST['usuario'];
+      header('Location: http://localhost:8080/paginasweb/aInicio.php');
+
+    
+  }else {
+    echo '<script> alert("Usuario o contraseña incorrectos"); </script>';
+  }
+
+}
+
+mysqli_close($conexion);
+
+?>

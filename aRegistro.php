@@ -11,11 +11,11 @@
 		<p>Disfruta de la ciudad y diviértete con tus amigos</p>
 	</header>
 	<nav>
-		<a href="aInicio.html">Inicio</a>
-		<a href="aHistoria.html">Historia</a>
-		<a href="aTuristicos.html">Lugares Turisticos</a>
-		<a href="aComida.html">Comida Tipica</a>
-		<a href="aContacto.html">Contacto</a>
+		<a href="aInicio.php">Inicio</a>
+		<a href="aHistoria.php">Historia</a>
+		<a href="aTuristicos.php">Lugares Turisticos</a>
+		<a href="aComida.php">Comida Tipica</a>
+		<a href="aContacto.php">Contacto</a>
 		<a href="#">Registro</a>
 		<a href="">Extras</a>
     <a href="php/FinalTabla.php">Usuarios Registrados</a>

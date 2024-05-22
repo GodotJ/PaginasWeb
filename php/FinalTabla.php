@@ -16,12 +16,12 @@
 	<p>Disfruta de la ciudad y diviértete con tus amigos</p>
 	</header>
 	<nav>
-    <a href="../aInicio.html">Inicio</a>
-		<a href="../aHistoria.html">Historia</a>
-		<a href="../aTuristicos.html">Lugares Turisticos</a>
-		<a href="../aComida.html">Comida Tipica</a>
-		<a href="../aContacto.html">Contacto</a>
-		<a href="../aRegistro.html">Registro</a>
+    <a href="../aInicio.php">Inicio</a>
+		<a href="../aHistoria.php">Historia</a>
+		<a href="../aTuristicos.php">Lugares Turisticos</a>
+		<a href="../aComida.php">Comida Tipica</a>
+		<a href="../aContacto.php">Contacto</a>
+		<a href="../aRegistro.php">Registro</a>
 		<a href="">Extras</a>
     <a href="#">Usuarios Registrados</a>
     <a href="destruir.php">Cerrar Sesion</a>

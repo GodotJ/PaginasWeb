@@ -11,12 +11,12 @@
 		<p>La historia de Valencia</p>
 	</header>
 	<nav>
-		<a href="aInicio.html">Inicio</a>
-		<a href="aHistoria.html">Historia</a>
-		<a href="aTuristicos.html">Lugares Turisticos</a>
+		<a href="aInicio.php">Inicio</a>
+		<a href="aHistoria.php">Historia</a>
+		<a href="aTuristicos.php">Lugares Turisticos</a>
 		<a href="#">Comida Tipica</a>
-		<a href="aContacto.html">Contacto</a>
-		<a href="aRegistro.html">Registro</a>
+		<a href="aContacto.php">Contacto</a>
+		<a href="aRegistro.php">Registro</a>
 		<a href="">Extras</a>
         <a href="php/FinalTabla.php">Usuarios Registrados</a>
 		<a href="php/destruir.php">Cerrar Sesion</a>

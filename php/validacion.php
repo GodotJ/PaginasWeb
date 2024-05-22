@@ -10,7 +10,7 @@ if(isset($_POST['sesion'])){
 
     session_start();
       $_SESSION['admin'] = $_REQUEST['usuario'];
-      header('Location: http://localhost:8080/paginasweb/aInicio.html');
+      header('Location: http://localhost:8080/paginasweb/aInicio.php');
 
     
   }
