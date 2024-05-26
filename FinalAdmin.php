@@ -17,7 +17,7 @@
 		<a href="uComida.html">Comida Tipica</a>
 		<a href="uContacto.html">Contacto</a>
 		<a href="uRegistro.html">Registro</a>
-		<a href="">Extras</a>
+		<a href="aExtras.php">Extras</a>
 		<a href="#">Admin</a> 
 	</nav>
 	<section>

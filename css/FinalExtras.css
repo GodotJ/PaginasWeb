@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-size: cover;
+      background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("../imagenes/valencia.jpg");
+  }
+  header {
+    background-color: #c76300;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  nav {
+    background-color: #6f3500;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  nav a:hover {
+    background-color: #ffce5c;
+  }
+  section {
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5%;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    line-height: 1.5;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    border-radius: 5px;
+  }
+  li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+  li h3 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  #act{
+    margin-left: 35%;
+    height:350px;
+    border-radius: 15%;
+  }
+  #act2{
+    margin-left: 30%;
+    height:350px;
+    border-radius: 15%;
+  }
+  
+  img{
+    width: 300px;
+      height: 300px; 
+  }
+  
+  .contenedor {
+    text-align: center;
+  }
+  
+
+
+.swiper {
+  width: 70%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.swiper-slide::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: linear-gradient(to bottom right, #b8b8b88f, #ffffff5e);
+}
+
+.swiper-slide-active::after {
+  background: none;
+}
+
+.swiper-slide > div {
+  text-align: center;
+  display: none;
+  opacity: 0;
+}
+
+.swiper-slide-active div {
+  display: block;
+  opacity: 1;
+}
+
+.swiper-slide h2 {
+  font-size: 1.5rem;
+  font-family: "Libre Baskerville", serif;
+  position: relative;
+}
+
+.swiper-slide h2::after {
+  position: absolute;
+  content: "";
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+@keyframes line {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.swiper-slide-active h2::after {
+  animation: line 0.5s linear forwards;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 3px 17px rgb(0 0 0 / 25%);
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+
+@media (min-width: 768px) {
+  .swiper-slide h2 {
+    font-size: 2rem;
+  }
+}

@@ -17,7 +17,7 @@
 		<a href="aComida.php">Comida Tipica</a>
 		<a href="uContacto.php">Contacto</a>
 		<a href="aRegistro.php">Registro</a>
-		<a href="">Extras</a>
+		<a href="aExtras.php">Extras</a>
         <a href="php/FinalTabla.php">Usuarios Registrados</a>
 		<a href="php/destruir.php">Cerrar Sesion</a>
 	</nav>
@@ -64,7 +64,6 @@
         <p>Estos son solo algunos de los muchos lugares turísticos que Valencia tiene para ofrecer. Con su combinación única de historia, cultura y belleza natural, 
             esta ciudad te dejará recuerdos inolvidables y ganas de volver una y otra vez. ¡Bienvenido a Valencia, donde cada rincón cuenta una historia!
         </p>
-        <img src="" alt="">
 	</section>
 	<footer>
 		<p>Derechos reservados © Turisticos S.A</p>

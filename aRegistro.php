@@ -17,7 +17,7 @@
 		<a href="aComida.php">Comida Tipica</a>
 		<a href="aContacto.php">Contacto</a>
 		<a href="#">Registro</a>
-		<a href="">Extras</a>
+		<a href="aExtras.php">Extras</a>
     <a href="php/FinalTabla.php">Usuarios Registrados</a>
 		<a href="php/destruir.php">Cerrar Sesion</a>
 	</nav>
