@@ -3,6 +3,18 @@
    $sql="SELECT * from registros";
 ?>
 
+<?php
+
+session_start();
+
+$usuario = $_SESSION['admin'];
+
+if (!isset($usuario)) {
+  header("Location:index.html");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -22,7 +34,7 @@
 		<a href="../aComida.php">Comida Tipica</a>
 		<a href="../aContacto.php">Contacto</a>
 		<a href="../aRegistro.php">Registro</a>
-		<a href="">Extras</a>
+		<a href="../aExtras.php">Extras</a>
     <a href="#">Usuarios Registrados</a>
     <a href="destruir.php">Cerrar Sesion</a>
 	</nav>

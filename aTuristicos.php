@@ -1,3 +1,15 @@
+<?php
+
+session_start();
+
+$usuario = $_SESSION['admin'];
+
+if (!isset($usuario)) {
+  header("Location:index.html");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>

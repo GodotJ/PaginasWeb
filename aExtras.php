@@ -1,3 +1,15 @@
+<?php
+
+session_start();
+
+$usuario = $_SESSION['admin'];
+
+if (!isset($usuario)) {
+  header("Location:index.html");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -19,11 +31,11 @@
     <a href="aInicio.php">Inicio</a>
 		<a href="aHistoria.php">Historia</a>
 		<a href="aTuristicos.php">Lugares Turisticos</a>
-		<a href="#">Comida Tipica</a>
+		<a href="aComida.php">Comida Tipica</a>
 		<a href="aContacto.php">Contacto</a>
 		<a href="aRegistro.php">Registro</a>
-		<a href="aExtras.php">Extras</a>
-        <a href="php/FinalTabla.php">Usuarios Registrados</a>
+		<a href="#">Extras</a>
+    <a href="php/FinalTabla.php">Usuarios Registrados</a>
 		<a href="php/destruir.php">Cerrar Sesion</a>
 	</nav>
     <div class="swiper mySwiper">
