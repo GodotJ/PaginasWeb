@@ -1,3 +1,4 @@
+//Funciones necesarias para que funcione el slider en el apartado de extras
 var swiper2 = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,

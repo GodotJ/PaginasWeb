@@ -1,3 +1,4 @@
+//Este JS YA NO SE USA
 function apareer(){
 
   let select= document.getElementById("camisa");

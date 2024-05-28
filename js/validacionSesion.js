@@ -1,3 +1,4 @@
+//Validacion para el momento que quieran ingresar sesion
 function validacion(){
     let usuario = document.getElementById('usuario').value;
     let password = document.getElementById('password').value;
