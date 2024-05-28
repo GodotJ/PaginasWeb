@@ -19,6 +19,8 @@ if(isset($_POST['registro'])){
       $ejecutar = mysqli_query ($conexion,$sql);
 }
 
+header('Location: http://localhost:8080/paginasweb/uRegistro.html');
+
 
 mysqli_close($conexion);
 
