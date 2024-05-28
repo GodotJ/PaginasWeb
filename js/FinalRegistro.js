@@ -1,3 +1,4 @@
+//Codigo extra, que bloqueaba la casilla transporte
 function habilitar()
 {
   let ciudad = document.getElementById('ciudad');
@@ -11,6 +12,7 @@ function habilitar()
   }
 }
 
+//Habilita el campo de talla en el registro
 function aparecer()
 {
   let select = document.getElementById('camisa');
@@ -30,10 +32,12 @@ function aparecer()
   }
 }
 
+//Cambia todo lo escrito a mayusculas
 function mayusculas(e){
   e.value = e.value.toUpperCase();
 }
 
+//Valida que solo se escriban los caracteres deseados en el registro
 function valideKey(evt){
 
 			// code is the decimal ASCII representation of the pressed key.
@@ -47,7 +51,7 @@ function valideKey(evt){
 			  return false;
 			}
 		}
-
+//Valida que se ingresen datos validos
     function validacion(){
 
       let nombre = document.getElementById('nombres').value;
@@ -121,6 +125,7 @@ function valideKey(evt){
         return true;
     }
 
+    //Valida que solo se escriban letras
 function soloLetras(evt){
   let letra = (evt.which) ? evt.which : evt.keyCode;
 
